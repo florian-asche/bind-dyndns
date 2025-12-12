@@ -15,4 +15,4 @@ RUN mkdir -p /app
 WORKDIR /app
 
 # Standard-Befehl (kann später überschrieben werden)
-CMD ["tail", "-f", "/dev/null"]
+CMD ["nsupdate"]
